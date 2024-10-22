@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link http-equiv="X-UA-Compatible" content = "IE=edge">
+  </head>
+  <body>
+    <nav class="nav">
+        <div class ="container">
+            
+            <!-- контейнер-->
+            <div class ="nav-row"><!--Создание лого-->
+                <a href="./index.html"class = "logo">Logotip_Dima</a><!--лого будет вести к главной странице <a>- это атрибут-->
+                    <ul class="nav-list">
+                        <li class="nav-list__item"><a href="./projects.html" class="nav-list__link">Projects</a></li><!--указывается элемент класса-->
+                        <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Skills</a></li><!--#это заглушка ссылки-->
+                        <li class="nav-list__item"><a href="./bio.html" class="nav-list__link nav-list__link--active">Bio</a></li><!--переход на другую страницу-->
+                        <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contacts</a></li>
+                        <!--__link- это элемент класса nav-list__item-->
+                        <!--active- это модификация, применяемая к-->
+                    </ul>
+                        
+                    
+                
+        </div>
+        </div>
+        
+    </nav>
+    <main>
+        <main class="section1"><!--section0 это белая тема-->
+            <div class="section__container">
+                <h1 class="title-projects">My Biography</h1><!--h1 это тег заголовка 1 уровня-->
+                <ul class="blocks">
+                <li>
+            <div class="containers__control">
+                     <div class="slider-container">
+                        <div class="slider">
+                        <img src="./image/icons/photo4.jpg" alt="slider1">
+                        <img src="./image/icons/photo2.jpg" alt="slider2">
+                        <img src="./image/icons/photo3.jpg" alt="slider3">
+                        <img src="./image/icons/photo1.jpg" alt="slider4">
+                        
+                        </div>
+                <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+                <button class="next-button" aria-label="Посмотреть следующий слайд">&gt;</button>
+                    </div>
+                 <div class="container__bio2">
+                <h2 class="bio-title-overview">Меня зовут <strong>Мищенко Дмитрий!</strong></h2><!--заголовок описания биографии-->
+                <div class="bio-overview">
+                    Я умею программировать в разных областях программирования: веб-программирование, разработка программ, разработка игр. Сайт создавался осенью 2024 года, как моё портфолио для будущих работ!    
+                </div><!--описание биографии-->
+                    </div>
+            </div>
+                </li>
+                </ul>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <ul class="social">
+                <li class="social__item">
+                    <a href="#!"><img src="./image/icons/vk.svg" alt="icon-name" class="img__icon3"></a><!--#! заглушка-->
+                    </li>
+                    <li class="social__item">
+                    <a href="#!"><img src="./image/icons/instagram.svg" alt="icon-name" class="img__icon"></a><!--#! заглушка-->
+                    </li>
+                    <li class="social__item">
+                    <a href="https://github.com/K4DJee"><img src="./image/icons/github.svg" alt="icon-name"></a><!--#! заглушка-->
+                    </li>
+                    <li class="social__item">
+                    <a href="https://www.youtube.com/@k4dje4018"><img src="./image/icons/youtube.svg" alt="icon-name"></a><!--#! заглушка-->
+                    </li>
+                    <li class="social__item">
+                    <a href="https://t.me/tji_fear"><img src="./image/icons/tg.svg" alt="icon-name" class="img__icon2"></a><!--#! заглушка-->
+                    </li>
+            </ul>
+            <div class="copyright">© 2024 frontend-portfolio.com</div>
+        </div>
+        <script src="js/icons.js"></script>
+    </footer>
+    <script src="./js/slide.js"></script>
+  </body>

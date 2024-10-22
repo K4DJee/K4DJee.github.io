@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link http-equiv="X-UA-Compatible" content = "IE=edge">
+</head>
+<body>
+    <!--<h1>Hello world</h1>      -->
+    <!--<nav class="upper_stroke">
+        <div class="container_upper">
+        <div class="upper_stroke1">г.Москва,ул.Дубнинская 79 корпус 5</div>
+        <div class="upper_stroke2">+7-909-942-10-50</div>
+        <div class="upper_stroke3">Garbazhnik@mail.ru </div>
+        </div>
+        </div>
+    </nav>-->
+    <nav class="nav">
+        <div class ="container">
+            
+            <!-- контейнер-->
+            <div class ="nav-row"><!--Создание лого-->
+                <a href="./index.html"class = "logo">Logotip_Dima</a><!--лого будет вести к главной странице <a>- это атрибут-->
+                    <ul class="nav-list">
+                        <li class="nav-list__item"><a href="./projects.html" class="nav-list__link">Projects</a></li><!--указывается элемент класса-->
+                        <li class="nav-list__item"><a href="./skills.html" class="nav-list__link nav-list__link--active">Skills</a></li><!--#это заглушка ссылки-->
+                        <li class="nav-list__item"><a href="./bio.html" class="nav-list__link">Bio</a></li><!--переход на другую страницу-->
+                        <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contacts</a></li>
+                        <!--__link- это элемент класса nav-list__item-->
+                        <!--active- это модификация, применяемая к-->
+                    </ul>
+                        
+                    
+                
+        </div>
+        </div>
+        
+    </nav>
+    <main class="section1">
+        <div class="section__container">
+            <h2 class="title-projects">My Skills</h2><!--h1 это тег заголовка 1 уровня-->
+            <ul class="icons-texts">
+                
+                <li class="icon-text"><!--разрешение-->
+                    <div class="column__icons">
+                    <div class="icon__name"><strong>C#</strong>
+                    <h3 class="icon__overview">Средний уровень 
+                    middle</h3></div>
+                    <!--<h4 class="icon__overview1">middle</h4>-->
+                    <img src="./image/icons/c-sharp.svg" alt="icon-language" class="icon-language">
+                    </div>
+                </li>
+
+                <li class="icon-text"><!--разрешение-->
+                    <div class="column__icons">
+                    <div class="icon__name"><strong>Unity</strong>
+                    <h3 class="icon__overview">Низкий уровень 
+                    junior</h3></div>
+                    <!--<h4 class="icon__overview1">middle</h4>-->
+                    <img src="./image/icons/unity.svg" alt="icon-language" class="icon-language">
+                    </div>
+                </li>
+
+                <li class="icon-text"><!--разрешение-->
+                    <div class="column__icons">
+                    <div class="icon__name"><strong>CSS</strong>
+                    <h3 class="icon__overview">Низкий уровень 
+                    junior</h3></div>
+                    <!--<h4 class="icon__overview1">middle</h4>-->
+                    <img src="./image/icons/css.svg" alt="icon-language" class="icon-language">
+                    </div>
+                </li>
+
+                <li class="icon-text"><!--разрешение-->
+                    <div class="column__icons">
+                    <div class="icon__name"><strong>Html</strong>
+                    <h3 class="icon__overview">Низкий уровень 
+                    junior</h3></div>
+                    <!--<h4 class="icon__overview1">middle</h4>-->
+                    <img src="./image/icons/html.svg" alt="icon-language" class="icon-language">
+                    </div>
+                </li>
+                <li class="icon-text"><!--разрешение-->
+                    <div class="column__icons">
+                    <div class="icon__name"><strong>Javascript</strong>
+                    <h3 class="icon__overview">Низкий уровень
+                    newbie</h3></div>
+                    <!--<h4 class="icon__overview1">middle</h4>-->
+                    <img src="./image/icons/js.svg" alt="icon-language" class="icon-language">
+                    </div>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </main><!--main - основное содержимое страницы-->
+    <!--ПОДВАЛ или же footer-->
+    <footer class="footer">
+        <div class="footer__container">
+            <ul class="social">
+                <li class="social__item">
+                    <a href="#!"><img src="./image/icons/vk.svg" alt="icon-name" class="img__icon3"></a><!--#! заглушка-->
+                    </li>
+                    <li class="social__item">
+                    <a href="#!"><img src="./image/icons/instagram.svg" alt="icon-name" class="img__icon"></a><!--#! заглушка-->
+                    </li>
+                    <li class="social__item">
+                    <a href="https://github.com/K4DJee"><img src="./image/icons/github.svg" alt="icon-name"></a><!--#! заглушка-->
+                    </li>
+                    <li class="social__item">
+                    <a href="https://www.youtube.com/@k4dje4018"><img src="./image/icons/youtube.svg" alt="icon-name"></a><!--#! заглушка-->
+                    </li>
+                    <li class="social__item">
+                    <a href="https://t.me/tji_fear"><img src="./image/icons/tg.svg" alt="icon-name" class="img__icon2"></a><!--#! заглушка-->
+                    </li>
+            </ul>
+            <div class="copyright">© 2024 frontend-portfolio.com</div>
+        </div>
+        <script src="js/icons.js"></script>
+    </footer>
+</body>
+</html>
