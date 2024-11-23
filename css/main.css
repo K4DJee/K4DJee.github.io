@@ -222,7 +222,7 @@ font-weight:500;
 }
 .project__image{
 border-radius: 9px;
-
+border-bottom:1px solid black;
 }
 .footer{
 background-color: var(--dark-bg);
