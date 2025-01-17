@@ -20,6 +20,8 @@
   html, body {
     font-family:"Iceland", serif; /*использование шрифта */
     font-family: "Open Sans", serif;
+      height:100vh;
+      background-color: var(--dark-bg);
   }
   
   .container{/*контейнер*/
@@ -175,7 +177,9 @@
   border-bottom: 2px solid #26292d;/*solid - прямая линия*/ 
  background-color: var(--dark-bg);
   max-height:auto;
-  min-height:551px;
+  align-items: center;
+     display: grid;
+     min-height: 71.1%;
  }
 .title-1{
 margin-bottom:60px;
