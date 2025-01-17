@@ -239,7 +239,9 @@ color:var(--white);
   flex-wrap: wrap;
   flex-direction: column;
   align-items:center;
-  
+  min-height: 19.5%;
+    display: grid;
+    align-items: end;
 }
 .social{
   display:flex;
