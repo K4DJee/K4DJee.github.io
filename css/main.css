@@ -241,7 +241,7 @@ color:var(--white);
   align-items:center;
   min-height: 19.5%;
     display: grid;
-    align-items: end;
+justify-content:center;
 }
 .social{
   display:flex;
